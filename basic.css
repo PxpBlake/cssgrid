@@ -1,103 +1,103 @@
-/* basic styles used through all forms of layout */
-/* Paul Irish's border-box declaration */
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #025373;
-	color: white;
-	margin: 0;
-	padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #025373;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 header,
 footer,
-aside, 
-section, 
+aside,
+section,
 article {
-	padding: 1em;
-	border-radius: 1rem;
+  padding: 1em;
+  border-radius: 1rem;
 }
 footer {
-	text-align: center;
+  text-align: center;
 }
 header,
 footer {
-	background-color: #5BA9D9;
+  background-color: #5ba9d9;
 }
-aside, 
+aside,
 section {
-	background-color: #3B82BF;
+  background-color: #3b82bf;
 }
 
 article {
-	background-color: #F2C335;
-	color: #333;
+  background-color: #f2c335;
+  color: #333;
 }
 button {
-	background-color: #E6480F;
-	border: none;
-	border-radius: 1em;
-	font-size: 1.3em;
-	font-weight: bold;
-	padding: 0.5em;
+  background-color: #e6480f;
+  border: none;
+  border-radius: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 0.5em;
 }
 button:hover {
-	color: white;
-	background-color: #F26938;
+  color: white;
+  background-color: #f26938;
 }
 section aside {
-	background-color: #F26938;
+  background-color: #f26938;
 }
 section aside a {
-	color: white;
-	text-decoration: none;
-	background-color: #F2C335;
-	border-radius: 1em;
-	font-size: 1em;
-	font-weight: bold;
-	padding: 0.5em; 
-	margin-top: 1em;
-	display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #f2c335;
+  border-radius: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em;
+  margin-top: 1em;
+  display: inline-block;
 }
 section aside a:hover {
-	color: #333;
-	background-color: #F5D166; 
+  color: #333;
+  background-color: #f5d166;
 }
 aside ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 aside ul a {
-	color: #F5D166;
-	text-decoration: none;
-	font-weight: bold;
-	display: block;
-	margin-bottom: 1em;
+  color: #f5d166;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1em;
 }
 aside ul a:hover {
-	color: #F2C335;
+  color: #f2c335;
 }
 blockquote {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 blockquote p {
-	font-size: 2em;
-	font-family: Georgia, serif;
-	font-style: italic;
+  font-size: 2em;
+  font-family: Georgia, serif;
+  font-style: italic;
 }
 blockquote cite::before {
-	content: "\2014\00a0";
+  content: "\2014\00a0";
 }
-/* image hack to make images "responsive". Yes, not the best or the right way to do things, but it's quick! */
+
 img {
-	width: 100%;
-	max-width: 100%;
-	border-radius: 1em;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 1em;
 }
